@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.doctor.DoctorChatFragment">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/_70sdp"
+       android:gravity="center_vertical"
+       android:background="@drawable/custom_dashboard"
+       android:orientation="horizontal">
+
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Chat"
+          android:fontFamily="@font/poppins_semi_bold"
+          android:layout_weight="1"
+          android:textAlignment="center"
+          android:textColor="#fff"
+          android:textSize="@dimen/_15ssp"
+          tools:ignore="HardcodedText" />
+
+   </LinearLayout>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingBottom="40dp"
+       tools:listitem="@layout/chat_list_recycler_items"
+       android:id="@+id/recyclerView"/>
+
+</LinearLayout>

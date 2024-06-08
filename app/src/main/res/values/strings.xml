@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Online Appointment System</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="speciality_list">
+        <item>Surgeon</item>
+        <item>Neurologist</item>
+        <item>Cardiologist</item>
+        <item>Dermatologist</item>
+        <item>Endocrinologist</item>
+        <item>Family physician</item>
+        <item>Gastroenterologist</item>
+        <item>Geneticist</item>
+        <item>Hematologist</item>
+        <item>Internal Medicine</item>
+        <item>Nephrologist</item>
+        <item>Oncologist</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="education_list">
+        <item>BAMS</item>
+        <item>MBBS</item>
+        <item>BHMS</item>
+        <item>BSMS</item>
+        <item>BNYS</item>
+        <item>MS</item>
+        <item>MD</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="disease_list">
+        <item>Fever</item>
+        <item>Asthma</item>
+        <item>Cancer</item>
+        <item>Diabetes</item>
+        <item>Infectious Diseases</item>
+        <item>Cholesterol</item>
+        <item>Heart Attack</item>
+        <item>Heart Disease</item>
+        <item>High Blood Pressure</item>
+        <item>Other</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

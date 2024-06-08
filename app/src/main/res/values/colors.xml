@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="delete_background">#da0000</color>
+    <color name="leave_type_background">#ECF3F6</color>
+    <color name="ibs_app_theme">#062f4b</color>
+    <color name="holiday_list_text_color">#062f4b</color>
+    <color name="payslip_list_text_color">#083F65</color>
+    <color name="view_line_color">#AAA8A8</color>
+    <color name="redColor">#ff042e</color>
+    <color name="absent_red_Color">#ff8182</color>
+    <color name="blueColor">#0065da</color>
+    <color name="greenColor">#2daf2d</color>
+    <color name="lightGreen">#bef8b6</color>
+    <color name="sky_color">#ECF3F6</color>
+    <color name="sky_blue_color">#74B8ED</color>
+    <color name="present_green_color">#06aa01</color>
+    <color name="aqua_color">#cbefeb</color>
+    <color name="blue">#35355e</color>
+    <color name="backgroundColor">#F9F9F9</color>
+    <color name="viewColor">#AAA8A8</color>
+    <color name="switchTextColor">#898989</color>
+
+    <color name="grey">#606060</color>
+    <color name="grey2">#858585</color>
+    <color name="grey3">#D1CECE</color>
+    <color name="grey4">#e1e1e1</color>
+    <color name="grey5">#D4D4D4</color>
+
+    <color name="project_active">#06ad00</color>
+    <color name="project_hold">#ff3b3b</color>
+    <color name="project_pending">#ffbb00</color>
+    <color name="project_completed">#00eeff</color>
+    <color name="splash_screen_color">#f8f8f8</color>
+    <color name="yelloColor">#fed402</color>
+    <color name="light_blue">#8fbcff</color>
+    <color name="brown">#964B00</color>
+    <color name="dark_green">#017900</color>
+    <color name="working_color">#05d5fe</color>
+    <color name="mail_sidebar_selected">#c3e5fe</color>
+    <color name="mail_read_color">#6A6A6A</color>
+    <color name="mail_unread_color">#000</color>
+    <color name="dark_ibs_app_blue_color">#020B11</color>
+    <color name="select_month_text_color">#09324D</color>
+
+    <color name="primary_color">#02253b</color>
+    <color name="secondary_color">#166293</color>
+    <color name="ripple_effect_colored">#C5C5C5</color>
+    <color name="ripple_effect_transparent">#66C5C5C5</color>
+
+    <color name="viewRedColor">#FF1A2F</color>
+    <color name="progressBarBlueColor">#3f51b5</color>
+    <color name="progressBarRedColor">#FF3838</color>
+    <color name="progressBarGreenColor">#00A55E</color>
+    <color name="progressBarGreyBgColor">#cfd0ec</color>
+    <color name="progressBarLightBlueProgressColor">#5d95d9</color>
+    <color name="profile_pic_stroke_color">#606060</color>
+    <color name="chat_view_color">#cecece</color>
+    <color name="other_chat_background_color">#f2f2f2</color>
+    <color name="white_ripple_effect_color">#F6F3F3</color>
+    <color name="forget">#319ef6</color>
+    <color name="subscription_background">#DCD9D9</color>
+    <color name="sendChatBackgroundColor">#79C0F8</color>
+
+</resources>

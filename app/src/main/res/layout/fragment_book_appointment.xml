@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.patient.BookAppointmentFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:gravity="center_vertical"
+                android:background="@drawable/custom_dashboard"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Book Appointment"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/_15ssp"
+                    tools:ignore="HardcodedText" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:src="@drawable/book_appointment"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Disease Name"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="@dimen/_12ssp"/>
+
+                <LinearLayout
+                    android:id="@+id/llDisease"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/custom_edittext"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.skydoves.powerspinner.PowerSpinnerView
+                        android:id="@+id/diseaseSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/sky_color"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:gravity="start"
+                        android:hint="Select Your Disease"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="13sp"
+                        android:layout_gravity="center_vertical"
+                        app:spinner_arrow_gravity="end"
+                        app:spinner_arrow_tint="@color/black"
+                        app:spinner_divider_color="@color/black"
+                        app:spinner_divider_show="true"
+                        app:spinner_divider_size="0.4dp"
+                        app:spinner_item_array="@array/disease_list"
+                        app:spinner_item_height="46dp"
+                        app:spinner_popup_animation="normal"
+                        app:spinner_popup_background="@color/sky_color"
+                        app:spinner_popup_elevation="14dp"
+                        tools:ignore="HardcodedText,MissingClass,UnusedAttribute" />
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="Select Doctor"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="@dimen/_12ssp"/>
+
+                <LinearLayout
+                    android:id="@+id/llDoctors"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/custom_edittext"
+                    android:elevation="5dp"
+                    android:orientation="horizontal">
+
+
+                    <Spinner
+                        android:id="@+id/doctorSpinner"
+                        android:layout_width="fill_parent"
+                        android:visibility="gone"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:spinnerMode="dialog" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Appointment Date"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="@dimen/_12ssp"/>
+
+                <LinearLayout
+                    android:id="@+id/llDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/custom_edittext"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtSelectDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="start|center_vertical"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:hint="Select Appointment Date"
+                        android:inputType="textCapSentences|textPersonName"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Appointment Time"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="@dimen/_12ssp"/>
+
+                <LinearLayout
+                    android:id="@+id/llTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/custom_edittext"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="start|center_vertical"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:hint="Select Appointment Time"
+                        android:inputType="textCapSentences|textPersonName"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llSignUp"
+                    android:layout_width="290dp"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:background="@drawable/button_gradient_background"
+                    android:elevation="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/signUpText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"
+                        android:text="Book Appointment"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_16ssp"
+                        tools:ignore="RtlCompat" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

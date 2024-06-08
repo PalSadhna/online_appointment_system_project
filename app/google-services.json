@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "387353275416",
+    "firebase_url": "https://online-appointment-syste-70ded-default-rtdb.firebaseio.com",
+    "project_id": "online-appointment-syste-70ded",
+    "storage_bucket": "online-appointment-syste-70ded.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387353275416:android:f5a0c6afd2c1aeaabee76d",
+        "android_client_info": {
+          "package_name": "com.example.onlineappointmentsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVnblGUNRsKQOtdosykJ1U7KKG5VGwRgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

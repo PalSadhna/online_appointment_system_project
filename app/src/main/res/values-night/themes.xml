@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.OnlineAppointmentSystem" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+         <item name="colorPrimary">@color/ibs_app_theme</item>
+
+    </style>
+</resources>
